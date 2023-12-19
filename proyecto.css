@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+.head {
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(20, 227, 235);
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: rgb(247, 242, 242);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: rgb(20, 227, 235);
+}
+
+.navbar a:hover{
+    background: #424141;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 60vh;
+    background: url(fondo.png) no-repeat center;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    padding: 0 100px;
+    margin: 10px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 40px;
+    border:  2px solid aqua;
+    color: white;
+    text-decoration: none;
+    background: aqua;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.sau{
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-contain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-contain .box{
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0,0,0 .5);
+    margin: 20px;
+}
+
+.box-contain .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: aqua;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.ofrecer{
+    color: aqua
+}
+
+.box-contain .box h3 {
+    font-size: 20px;
+    color:rgb(20, 227, 235);
+}
+
+.box-contain .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about{
+    background: #171717; 
+}
+
+.price{
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.taller{
+    border-radius: 3px;
+    justify-content: center;
+    width: 3px;
+    height: 6px;
+    background-image: url(./taller.png) no-repeat center;
+    margin: 10px;
+
+}
+
+.contact{
+    padding-top: 20px;
+    background:#171717;
+    width: 30%;
+    height: 30%;
+}
+
+.contact2{
+    padding-top: 20px;
+    background:#171717;
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.contact3{
+    padding-top: 20px;
+    background:#171717;
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.content-contact{
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+
+}
+
+.content-contact2{
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.content-contact3{
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.contenedor{
+    display: flex;
+    padding: 0 15px;
+    margin: 1rem 0;
+}
+
+.title2{
+    font-size: 30px;
+}
+
+@media (max-width: 768px){
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau{
+        height: 120vh;
+    }
+
+    .navbar{
+        display: none;
+    }
+}
